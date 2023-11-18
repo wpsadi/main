@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-clip: content-box;
+    /* background-blend-mode: difference; */
     height:600px;
     margin-left:15%;
 }
@@ -41,6 +42,7 @@
 
 #unicorn-1-2{
     font-size:1.6rem;
+    
 }
 
 
