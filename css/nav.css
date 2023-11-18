@@ -36,6 +36,8 @@ nav>img {
         justify-content: space-between;
         gap: 20%;
     }
+
+
 }
 
 #navbar li {
@@ -148,6 +150,10 @@ nav>img {
 
     .menu>svg {
         height: 40px
+    }
+
+    nav > img{
+        width:10em;
     }
 
 
