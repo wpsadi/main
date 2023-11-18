@@ -32,10 +32,7 @@ nav>img {
         display:none
     }
 
-    nav {
-        justify-content: space-between;
-        gap: 20%;
-    }
+
 
 
 }
@@ -154,6 +151,11 @@ nav>img {
 
     nav > img{
         width:10em;
+    }
+
+    nav {
+        justify-content: space-between;
+        gap: 20%;
     }
 
 
