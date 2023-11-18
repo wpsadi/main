@@ -3,7 +3,7 @@
     flex-direction:row;
     align-items:center;
     justify-content:center;
-    background: url("/public/unicorn@2x.png");
+    background: url("../public/unicorn@2x.png");
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
