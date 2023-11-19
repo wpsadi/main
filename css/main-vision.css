@@ -51,7 +51,7 @@
 
 @media screen and (max-width:1024px) {
     #vision-1 {
-        /* width:100%; */
+        width:100%;
         min-width: 100%;
         /* gap: 40px; */
         font-size: 1.1rem;
