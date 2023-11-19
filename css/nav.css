@@ -133,7 +133,7 @@ nav>img {
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .menu {
         align-self: center;
         display: flex;
