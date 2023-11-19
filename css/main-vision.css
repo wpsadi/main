@@ -24,7 +24,7 @@
 #vision-1 {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    /* gap: 80px; */
     justify-content: center;
     width: 50%;
     min-width: 600px;
@@ -45,14 +45,15 @@
 }
 
 .what-we-do{
-    margin
+    font-size:2.2rem;
+    margin:0px ;
 }
 
 @media screen and (max-width:1024px) {
     #vision-1 {
         /* width:100%; */
         min-width: 100%;
-        gap: 40px;
+        /* gap: 40px; */
         font-size: 1.1rem;
 
     }
