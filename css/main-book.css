@@ -1,6 +1,6 @@
 #book {
     font-family: Plus Jakarta Sans;
-    height: 700px;
+    /* height: 700px; */
     display: flex;
     align-items: center;
     justify-content: center;

@@ -5,3 +5,9 @@ body{
     /* please do not remove this margin */
     /* margin:0px; */
 }
+
+main{
+    display:flex;
+    flex-direction: column;
+    /* gap:20px; */
+}

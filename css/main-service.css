@@ -1,7 +1,6 @@
 #service {
-    height: 600px;
+    /* height: 400px; */
     /* margin-left:15%; */
-    margin-top:480px;
 
     font-family: Plus Jakarta Sans;
 }
@@ -42,7 +41,7 @@
 }
 
 #service>div>img {
-    height: 600px;
+    height: 500px;
 }
 
 .what-we-do{
@@ -52,9 +51,8 @@
 
 @media screen and (max-width:1024px) {
     #service-1 {
-        /* width:100%; */
-        width: 100%;
-        min-width:600px;
+        width:100%;
+        min-width: 100%;
         /* gap: 40px; */
         font-size: 1.1rem;
 
@@ -66,9 +64,10 @@
 
     #service {
         background-size: 100%;
-        height: 400px;
-        /* margin-top:200px; */
+        /* height: 400px; */
+        height:fit-content;
         margin-left: 5%;
+        /* padding-top:40vh; */
 
     }
 
@@ -77,6 +76,6 @@
     }
 
     #service>div>img {
-        height: 400px;
+        height: 380px;
     }
 }
