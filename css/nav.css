@@ -49,11 +49,11 @@ nav>img {
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-family: Plus Jakarta Sans;
 
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #fff;
 
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,20 +61,20 @@ nav>img {
 }
 
 .nav-item {
-    border: 2px dashed #fff;
-    border-bottom: 3px solid #000;
+    border: 2px dashed #000;
+    border-bottom: 3px solid #fff;
 }
 
 .nav-item:hover,
 .nav-item:focus {
-    border: 2px dashed #000;
-    border-bottom: 3px solid #000;
+    border: 2px dashed #fff;
+    border-bottom: 3px solid #fff;
 }
 
 #contact-us-nav {
     width: 170px;
     border-radius: 9999px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
@@ -82,10 +82,10 @@ nav>img {
 
 #contact-us-nav:hover,
 #contact-us-nav:focus {
-    border: 2px solid #fff;
-    border-bottom:3px solid #fff;
-    background: #000;
-    color: #fff;
+    border: 2px solid #000;
+    border-bottom:3px solid #000;
+    background: #fff;
+    color: #000;
 }
 
 .menu {
@@ -95,7 +95,7 @@ nav>img {
 .line {
     stroke-width: 6;
     stroke-linecap: round;
-    stroke: #000;
+    stroke: #fff;
     transition: all 500ms;
 }
 
@@ -112,7 +112,7 @@ nav>img {
 }
 
 .menu .line {
-    stroke: #000;
+    stroke: #fff;
 }
 
 .menu .top1 {
@@ -141,7 +141,7 @@ nav>img {
         align-items: center;
         height: 40px;
         width: fit-content;
-        border: 2px solid #000;
+        border: 2px solid #fff;
         width: 50px;
         border-radius: 9999px;
     }
@@ -165,12 +165,12 @@ nav>img {
 #menu-phone {
     /* width:100%; */
     box-sizing: border-box;
-    border: 2px solid #000;
+    border: 2px solid #ffff;
     text-align: left;
     /* padding: 0px 8px; */
     border-radius: 20px;
     /* display: flex; */
-    color: #000;
+    color: #ffff;
     flex-direction: column;
     font-family: Plus Jakarta Sans;
     transition: transform,display ease-in 0.3s;
@@ -178,7 +178,7 @@ nav>img {
 }
 
 #menu-phone>a {
-    color: #000;
+    color: #ffff;
     width:100%;
     /* align-self:center; */
     text-align:center;
@@ -192,19 +192,19 @@ nav>img {
 
 #menu-phone > a:hover{
     font-size:1.18rem;
-    color:#fff;
+    color:#000;
 
 }
 
 
 
 .menu-item-bottom {
-    border-bottom:2px solid #000;
+    border-bottom:2px solid #fff;
 }
 
 .menu-item-bottom:hover{
-    background: #696969;
-    color:#fff
+    background: #beacac;
+    color:#000
 }
 
 #contact-menu{
@@ -216,14 +216,14 @@ nav>img {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
-    color:#fff;
+    color:#000;
 }
 
 #contact-menu:hover,
 #contact-menu:focus {
     /* border: 2px solid #fff; */
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 
 .display-toggle-on{
