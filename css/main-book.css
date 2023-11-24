@@ -45,6 +45,8 @@
 }
 
 #book #btn-mail{
+    height:fit-content;
+    width:fit-content;
     font-family: monospace;
     border-radius:9999px;
     cursor:pointer;
@@ -64,6 +66,8 @@
     width:30vw;
     /* height:500px; */
 }
+
+
 
 @media screen and (max-width:1024px){
     #book{
@@ -88,9 +92,15 @@
     }
 }
 
-/* @media screen and (max-width:550px){
-    .book-img{
-        max-width:100%;
-        width:60vw;
+@media screen and (max-width:340px){
+    #book-1 #btn-mail{
+        /* display: flex;
+        flex-wrap:wrap;
+        justify-content: flex-start;
+        align-items: start; */
+        /* gap:6px; */
+        display: block;
+        margin-top:6px;
     }
-} */
+}
+
